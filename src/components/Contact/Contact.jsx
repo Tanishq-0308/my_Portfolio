@@ -24,7 +24,7 @@ function Contact() {
           </div>
         </div>
         <div className='w-[60%] mt-12 max-[750px]:w-auto'>
-      <form action="" className='flex gap-3 flex-col text-white' method="POST" data-netlify="true"> 
+      <form action="" className='flex gap-3 flex-col text-white' method="POST" data-netlify="true" name="contact" netlify> 
         <div>
         <input type="text" placeholder='Name' className='bg-transparent  active:outline-[#4bff33] max-[680px]:w-full rounded-lg border p-3 w-[49%] mr-3 border-gray-500 mb-3'/>
         <input type="email" name="email" id="email" placeholder='Email' className='max-[680px]:w-full bg-transparent border-gray-500 border w-[49%] rounded-lg p-3  active:outline-[#4bff33]'/>
