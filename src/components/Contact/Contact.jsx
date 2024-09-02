@@ -24,7 +24,7 @@ function Contact() {
           </div>
         </div>
         <div className='w-[60%] mt-12 max-[750px]:w-auto'>
-      <form className='flex gap-3 flex-col text-white' method="POST" data-netlify="true" name="contact"> 
+      <form className='flex gap-3 flex-col text-white' method="POST" data-netlify="true" name="Netlify contact Form"> 
       <input type="hidden" name="form-name" value="contact" />
         <div>
         <input type="text" name='name' placeholder='Name' className='bg-transparent  active:outline-[#4bff33] max-[680px]:w-full rounded-lg border p-3 w-[49%] mr-3 border-gray-500 mb-3'/>
