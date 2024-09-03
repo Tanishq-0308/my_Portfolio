@@ -1,4 +1,5 @@
 import React from "react";
+import Form from '../Form/Form'
 
 function Contact() {
   return (
@@ -158,7 +159,8 @@ function Contact() {
             </div>
           </div>
           <div className="w-[60%] mt-12 max-[750px]:w-auto">
-            <form
+            <Form/>
+            {/* <form
               className="flex gap-3 flex-col text-white"
               method="POST"
               data-netlify="true"
@@ -204,7 +206,7 @@ function Contact() {
                   SEND A MESSAGE
                 </button>
               
-            </form>
+            </form> */}
           </div>
         </div>
       </div>
