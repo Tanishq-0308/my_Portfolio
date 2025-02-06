@@ -3,7 +3,7 @@ import Form from '../Form/Form'
 
 function Contact() {
   return (
-    <div className="bg-[#303030] h-full max-[750px]:h-full w-full flex ">
+    <div className="bg-[#303030] h-screen max-[750px]:h-full w-full flex ">
       <div className=" bg-[#222222] mx-20 max-[850px]:mx-0 mt-20 pb-[47px] w-full ">
         <div className="border-t border-b mt-14 p-10 border-gray-600 flex max-[750px]:flex-col justify-between">
           <div className=" w-[20%] max-[750px]:flex-wrap flex flex-col max-[750px]:flex-row max-[750px]:w-auto">
