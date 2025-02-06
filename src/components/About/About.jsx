@@ -6,7 +6,7 @@ function About() {
   return (
     <div className='h-screen max-[1170px]:h-full text-white w-full flex justify-around max-[880px]:flex-col items-center bg-[#252525] ' id='about'>
     <div className='mt-52 text-center flex flex-col items-center justify-center'>
-      <h1 className='text-3xl '>ABOUT ME</h1>
+      <h1 className='text-3xl '>ABOUT </h1>
       <div className='bg-black max-[480px]:h-[300px] flex items-center justify-center max-[480px]:w-[300px] relative h-[400px] w-[400px] rounded-full mt-5'>
       <p className='absolute w-[80%] max-[490px]:text-xl text-2xl '>I hold a Master's degree in Computer Applications , my experties lies in creating clean, efficient, and scalable code, with a focus on front-end technologies.</p>
       </div>
