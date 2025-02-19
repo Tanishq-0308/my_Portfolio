@@ -3,26 +3,26 @@ import Form from '../Form/Form'
 
 function Contact() {
   return (
-    <div className="bg-[#303030] h-screen max-[750px]:h-full w-full flex ">
-      <div className=" bg-[#222222] border-b mx-20 max-[850px]:mx-0 mt-20 pb-[47px] w-full ">
-        <div className="border-t  mt-14 p-10 border-gray-600 flex max-[750px]:flex-col justify-between">
+    <div className="bg-[#303030] h-screen  w-full flex ">
+      <div className=" bg-[#222222] mx-20 max-[850px]:mx-0 mt-20 pb-[47px] w-full ">
+        <div className="border-t h-[95%] border-b mt-14 p-10 border-gray-600 flex max-[750px]:flex-col justify-between">
           <div className=" w-[20%] max-[750px]:flex-wrap flex flex-col max-[750px]:flex-row max-[750px]:w-auto">
             <h1 className="text-[#b6b6b6] text-center text-xl font-serif font-semibold ">
               GET IN TOUCH
             </h1>
             <div
-              className="text-white flex flex-col items-center mt-12 max-[750px]:flex-wrap max-[750px]:flex-row
+              className="text-white flex flex-col items-center mt-12 max-[750px]:flex-row
            gap-10"
             >
               <a
                 href="https://github.com/Tanishq-0308"
                 target="_blank"
-                className="bg-white text-black rounded-full hover:scale-125 transition-all duration-500"
+                className="bg-white text-black rounded-full hover:scale-125 transition-all duration-500 w-[64px] h-[64px] max-[500px]:w-[50px] max-[500px]:h-[50px]"
               >
                 <svg
                   fill="#000000"
-                  width="64px"
-                  height="64px"
+                  // width="64px"
+                  // height="64px"
                   viewBox="0 0 512 512"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -41,11 +41,11 @@ function Contact() {
               <a
                 href="https://www.linkedin.com/in/tanishq-sharmaa/"
                 target="_blank"
-                className="hover:scale-125 transition-all duration-500"
+                className="hover:scale-125 transition-all duration-500 w-[64px] h-[64px] max-[500px]:w-[50px] max-[500px]:h-[50px]"
               >
                 <svg
-                  width="64px"
-                  height="64px"
+                  // width="64px"
+                  // height="64px"
                   viewBox="0 0 48 48"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -77,11 +77,11 @@ function Contact() {
               <a
                 href="https://www.instagram.com/tanishq_0308/"
                 target="_blank"
-                className="rounded-full hover:scale-125 transition-all duration-500"
+                className="rounded-full hover:scale-125 transition-all duration-500 w-[64px] h-[64px] max-[500px]:w-[50px] max-[500px]:h-[50px]"
               >
                 <svg
-                  width="64px"
-                  height="64px"
+                  // width="64px"
+                  // height="64px"
                   viewBox="0 0 2500 2500"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="#000000"
@@ -133,12 +133,12 @@ function Contact() {
               <a
                 href="https://leetcode.com/u/Tanishq0308/"
                 target="_blank"
-                className="rounded-full hover:scale-125 transition-all duration-500"
+                className="rounded-full hover:scale-125 transition-all duration-500 w-[64px] h-[64px] max-[500px]:w-[50px] max-[500px]:h-[50px]"
               >
                 <svg
                   fill="#e1a82d"
-                  width="64px"
-                  height="64px"
+                  // width="64px"
+                  // height="64px"
                   viewBox="0 0 24 24"
                   role="img"
                   xmlns="http://www.w3.org/2000/svg"
@@ -160,53 +160,6 @@ function Contact() {
           </div>
           <div className="w-[60%] mt-12 max-[750px]:w-auto">
             <Form/>
-            {/* <form
-              className="flex gap-3 flex-col text-white"
-              method="POST"
-              data-netlify="true"
-              name="contact"
-            >
-              <input type="hidden" name="form-name" value="contact" />
-              <p>
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Name"
-                  className="bg-transparent  active:outline-[#4bff33] max-[680px]:w-full rounded-lg border p-3 w-[49%] mr-3 border-gray-500 mb-3"
-                />
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Email"
-                  className="max-[680px]:w-full bg-transparent border-gray-500 border w-[49%] rounded-lg p-3  active:outline-[#4bff33]"
-                />
-              </p>
-              
-                <input
-                  type="text"
-                  name="subject"
-                  placeholder="Subject"
-                  className="bg-transparent border  active:outline-[#4bff33] w-full p-3 border-gray-500 rounded-lg"
-                />
-              
-                <textarea
-                  name="message"
-                  id="message"
-                  cols="30"
-                  rows="10"
-                  placeholder="Message"
-                  className="border-gray-500 rounded-lg bg-transparent border p-3 w-full outline-none active:outline-[#4bff33]"
-                ></textarea>
-              
-                <button
-                  type="submit"
-                  className='bg-transparent border rounded-lg p-3 border-gray-500 w-full relative before:absolute before:left-0 before:content-[""] before:w-2 before:bg-[#4bff33] before:h-full before:top-0 before:rounded-lg hover:before:w-full z-10 before:transition-all text-white font-semibold hover:text-black tracking-widest before:duration-700 before:-z-10'
-                >
-                  SEND A MESSAGE
-                </button>
-              
-            </form> */}
           </div>
         </div>
       </div>
