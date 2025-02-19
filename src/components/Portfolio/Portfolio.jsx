@@ -32,9 +32,9 @@ function Portfolio() {
         <h1 className="text-gray-600 text-3xl font-semibold">MY PORTFOLIO</h1>
         <h1 className="text-white text-5xl mt-2">
           {" "}
-          Look at My Work & <br />
+          Explore My Creations & <br />
           <Link to="/Contact">
-            <span className="mt-3 block text-[#4bff33] hover:text-[#167e08]">Contact Me</span>
+            <span className="mt-3 block text-[#4bff33] hover:text-[#167e08]">Get in Touch</span>
           </Link>
         </h1>
         <div className="grid grid-cols-2 place-items-center gap-x-12 gap-y-16 mt-16 mx-8 max-[550px]:mx-0 p-8 bg-black max-[800px]:grid-cols-1">
